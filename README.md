@@ -1,34 +1,70 @@
-# Build-and-Deploy-Ecommerce-Website-With-HTML-CSS-JavaScript
+# 🛍️ Cera Website - Modern E-Commerce Platform
 
-[<img alt="Build-and-Deploy-Ecommerce-Website-With-HTML-CSS-JavaScript" width="100%" src="https://github.com/tech2etc/Youtube-Tutorials/blob/main/Build%20and%20Deploy%20Ecommerce%20Website%20With%20HTML%20CSS%20JavaScript%20Full%20Responsive%20Ecommerce%20Course%20FREE.PNG?raw=true" />](https://youtu.be/P8YuWEkTeuE/)
+Welcome to **Cera Website**, a fully responsive, visually stunning multi-page E-Commerce platform built from scratch. Designed with rich modern aesthetics, fluid layout shifts, and interactive animations to deliver a premium shopping experience.
 
-## About this course
-LEARN HOW TO BUILD AND DEPLOY FULL RESPONSIVE ECOMMERCE WEBSITE USING HTML CSS & JAVASCRIPT. This is a free HTML CSS Course. And in this course we will learn how to build and deploy a full multipage ecommerce website completely from scratch step by step. Will Create from responsive navbar using html CSS JavaScript to responsive footer in one video.
+---
 
-## Why This Course?
-- Responsive Ecommerce Website Tutorial Using HTML CSS & JavaScript.
-- Completely For Beginners.
-- Multipage Ecommerce Website Project.
-- Best Beginner Friendly Free Course On YouTube.
-- Learn How to build amazing professional and responsive websites.
-- Learn the fundamentals of web design.
-- Modern CSS, including flexbox and CSS Grid for layout.
-- Modern CSS techniques to create stunning designs and effects.
-- How to use common components and layout patterns for professional website design and development.
-- Advanced responsive design using media queries.
-- And Many More.
+## ✨ Features
 
-## Sections
-- Part1: Responsive Home Page Design.
-- Part2: Shop Page & Single Product Page.
-- Part3: Blog Page.
-- Part4: About Page.
-- Part5: Contact Us.
-- Part6: Ecommerce Shopping Cart.
+- **📱 Fully Responsive Design**: Seamlessly shifts layouts across desktop, tablet, and mobile devices.
+- **🎨 Premium Visual Aesthetics**: Crafted with a carefully selected, modern color palette, clean typography (Spartan font), and glassmorphic elements.
+- **⚡ Interactive Micro-Animations**: Smooth hover transitions on product cards, navigation items, CTA buttons, and interactive icons.
+- **👕 Featured Products Grid**: Organized showcasing of products with star ratings, hover zoom effects, and quick-add-to-cart buttons.
+- **💥 Dynamic Promotional Banner**: Engaging Call-To-Action (CTA) section with layered text over a high-resolution background.
+- **📁 Structured Multipage Layout**: Includes dedicated pages for Shopping, Product details, Blogs, About Us, Contact, and a Checkout Cart.
 
-Here you will find all the images I'm using to create this responsive ecommerce website. In future image folder can update.
+---
 
-Get the full source code from [here1](https://www.buymeacoffee.com/tech2etc/e/50932).
+## 🛠️ Technology Stack
 
-Get the full source code from [here2](https://ko-fi.com/s/06e4db9e09).
-# Cera_Website 
+| Layer | Technology | Purpose |
+| :--- | :--- | :--- |
+| **Core Structure** | HTML5 | Semantics & layout organization |
+| **Styling & Theme** | CSS3 | Vanilla CSS, Flexbox, custom grids, hover animations |
+| **Icons** | FontAwesome 5 | Premium, vector icons for UI elements |
+| **Interactions** | JavaScript | Custom interactions (navigation toggles, cart logic) |
+
+---
+
+## 📂 Project Structure
+
+```
+├── 📁 img/                   # Image assets (products, banners, icons)
+├── 📄 index.html             # Homepage
+├── 📄 shop.html              # Product listing catalog
+├── 📄 blog.html              # Blog articles listing
+├── 📄 about.html             # About company & team page
+├── 📄 contact.html           # Contact details & contact form
+├── 📄 cart.html              # Shopping cart page
+├── 📄 sproduct.html          # Single product details page
+├── 📄 style.css              # Main external stylesheet
+└── 📄 script.js              # Application logic script
+```
+
+---
+
+## 🚀 Getting Started
+
+To run the project locally on your machine:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/akhil3145/Cera_Website.git
+   ```
+
+2. **Navigate into the folder:**
+   ```bash
+   cd Ecommerce_website
+   ```
+
+3. **Open the project:**
+   Simply double-click `index.html` to open it in your default web browser, or use a local dev server (like VS Code's *Live Server* extension) for auto-reload.
+
+---
+
+## 📺 Course Reference & Credits
+
+This project was built following the comprehensive **Build and Deploy E-Commerce Website** tutorial series by **Tech2etc**. Special thanks to the author for the layout assets and baseline design resources.
+
+---
+*Developed with ❤️ by Akhil*
