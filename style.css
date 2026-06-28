@@ -303,3 +303,39 @@ button.normal:hover {
   background-color: #088178;
   color: #fff;
 }
+
+#sm-banner{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+#sm-banner .banner-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 30px;
+  background-image: url("img/banner/b17.jpg");
+  min-width: 500px;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  margin: 40px;
+}
+#sm-banner h4{
+  color:#fff;
+  font-size: 20px;
+  font-weight: 300;
+}
+#sm-banner h2{
+  color:#fff;
+  font-size: 28px;
+  font-weight: 800;
+}
+#sm-banner span{
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  padding-bottom: 15px;
+}
