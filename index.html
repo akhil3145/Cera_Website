@@ -23,12 +23,14 @@
                     <li><a href="blog.html">Blog</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="contact.html">Contact</a></li>
-                    <li id="lg-bag"><a href="cart.html"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a></li>
+                    <li id="lg-bag"><a href="#" id="cart-btn"><i class="fa fa-shopping-bag" aria-hidden="true"></i><span class="badge" id="cart-badge">0</span></a></li>
+                    <li><a href="#" id="theme-toggle"><i class="far fa-moon"></i></a></li>
                     <a href="#" id="close"><i class="far fa-times"></i></a>
                 </ul>
             </div>
             <div id="mobile">
-                <a href="cart.html"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+                <a href="#" id="mobile-cart-btn"><i class="fa fa-shopping-bag" aria-hidden="true"></i><span class="badge" id="mobile-cart-badge">0</span></a>
+                <a href="#" id="mobile-theme-toggle"><i class="far fa-moon"></i></a>
                 <i id="bar" class="fas fa-outdent"></i>
             </div>
         </section>
@@ -435,9 +437,53 @@
         </footer>
 
 
+    <div id="cart-sidebar" class="cart-sidebar">
+        <div class="cart-header">
+            <h3>Shopping Cart</h3>
+            <i class="far fa-times" id="cart-close"></i>
+        </div>
+        <div class="cart-items" id="cart-items-container"></div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Subtotal:</span>
+                <span id="cart-total-price">$0.00</span>
+            </div>
+            <button class="normal checkout-btn" id="checkout-btn">Proceed To Checkout</button>
+        </div>
+    </div>
 
+    <div id="quickview-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" id="close-modal">&times;</span>
+            <div class="modal-body">
+                <div class="modal-img">
+                    <img src="" id="modal-product-img" alt="">
+                </div>
+                <div class="modal-details">
+                    <span id="modal-product-brand"></span>
+                    <h2 id="modal-product-title"></h2>
+                    <div class="modal-price" id="modal-product-price"></div>
+                    <select id="modal-product-size">
+                        <option>Select Size</option>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                        <option>XL</option>
+                        <option>XXL</option>
+                    </select>
+                    <div class="modal-qty">
+                        <button id="qty-minus">-</button>
+                        <input type="number" id="qty-input" value="1" min="1">
+                        <button id="qty-plus">+</button>
+                    </div>
+                    <button class="normal add-to-cart-modal-btn" id="modal-add-to-cart-btn">Add To Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
-        <script src="script.js"></script>
-    </body>
+    <div id="toast-container" class="toast-container"></div>
 
+    <script src="script.js"></script>
+</body>
 </html>
