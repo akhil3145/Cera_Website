@@ -1,70 +1,204 @@
-# 🛍️ Cera Website - Modern E-Commerce Platform
+<div align="center">
 
-Welcome to **Cera Website**, a fully responsive, visually stunning multi-page E-Commerce platform built from scratch. Designed with rich modern aesthetics, fluid layout shifts, and interactive animations to deliver a premium shopping experience.
+# 🛍️ Cera Website
+
+### Modern E-Commerce Platform — 2026 Edition
+
+A fully responsive, feature-rich e-commerce experience with dark mode, cart system, quickview modals, and toast notifications — built from scratch with vanilla HTML, CSS & JS.
+
+![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-%231572B6.svg?style=flat&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?style=flat&logo=javascript&logoColor=black)
+![FontAwesome](https://img.shields.io/badge/FontAwesome-%23339AF0.svg?style=flat&logo=fontawesome&logoColor=white)
+
+<br>
+
+[![Live Demo](https://img.shields.io/badge/-Live_Demo-brightgreen?style=for-the-badge)](https://akhil3145.github.io/Cera_Website/)
+[![GitHub Stars](https://img.shields.io/github/stars/akhil3145/Cera_Website?style=for-the-badge&color=yellow)](https://github.com/akhil3145/Cera_Website/stargazers)
+[![Forks](https://img.shields.io/github/forks/akhil3145/Cera_Website?style=for-the-badge&color=blue)](https://github.com/akhil3145/Cera_Website/network/members)
+[![Issues](https://img.shields.io/github/issues/akhil3145/Cera_Website?style=for-the-badge&color=red)](https://github.com/akhil3145/Cera_Website/issues)
+
+<br>
+
+![Preview](img/hero4.png)
+
+</div>
 
 ---
 
 ## ✨ Features
 
-- **📱 Fully Responsive Design**: Seamlessly shifts layouts across desktop, tablet, and mobile devices.
-- **🎨 Premium Visual Aesthetics**: Crafted with a carefully selected, modern color palette, clean typography (Spartan font), and glassmorphic elements.
-- **⚡ Interactive Micro-Animations**: Smooth hover transitions on product cards, navigation items, CTA buttons, and interactive icons.
-- **👕 Featured Products Grid**: Organized showcasing of products with star ratings, hover zoom effects, and quick-add-to-cart buttons.
-- **💥 Dynamic Promotional Banner**: Engaging Call-To-Action (CTA) section with layered text over a high-resolution background.
-- **📁 Structured Multipage Layout**: Includes dedicated pages for Shopping, Product details, Blogs, About Us, Contact, and a Checkout Cart.
+<table>
+<tr>
+<td width="50%">
+
+### 🎨 Design & UI
+- 🌗 **Dark / Light Mode** — Toggle with persistent theme via `localStorage`
+- 📱 **Fully Responsive** — Fluid layouts for desktop, tablet & mobile
+- 🪟 **Glassmorphic Header** — Frosted glass sticky navigation
+- ✨ **Micro-Animations** — Hover transitions, scale effects, slide-ins
+- 🎯 **Modern Typography** — Inter + Outfit font pairing
+
+</td>
+<td width="50%">
+
+### 🛒 E-Commerce Core
+- 🛍️ **Slide-in Cart Sidebar** — Add, remove, update quantities
+- 🔢 **Cart Badge Counter** — Live count on navbar & mobile nav
+- 👁️ **Quickview Modal** — Click any product for size/qty selection
+- 🍞 **Toast Notifications** — Animated feedback on cart actions
+- 💳 **Checkout Flow** — Subtotal calculation & checkout button
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 🛠️ Technology Stack
+## 🎬 Preview
 
-| Layer | Technology | Purpose |
-| :--- | :--- | :--- |
-| **Core Structure** | HTML5 | Semantics & layout organization |
-| **Styling & Theme** | CSS3 | Vanilla CSS, Flexbox, custom grids, hover animations |
-| **Icons** | FontAwesome 5 | Premium, vector icons for UI elements |
-| **Interactions** | JavaScript | Custom interactions (navigation toggles, cart logic) |
+<table>
+<tr>
+<td align="center"><b>Light Mode</b></td>
+<td align="center"><b>Dark Mode</b></td>
+</tr>
+<tr>
+<td>
+
+![Light Mode](img/banner/b17.jpg)
+
+</td>
+<td>
+
+![Dark Mode](img/banner/b10.jpg)
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🛠️ Tech Stack
+
+```
+┌─────────────────┬──────────────────┬────────────────────────────┐
+│     Layer       │   Technology     │         Purpose            │
+├─────────────────┼──────────────────┼────────────────────────────┤
+│  Structure      │  HTML5           │  Semantic markup & layout  │
+│  Styling        │  CSS3            │  Flexbox, Grid, Variables  │
+│  Interactivity  │  Vanilla JS      │  Cart, Modal, Theme, Toast │
+│  Icons          │  FontAwesome 6   │  Vector icons & glyphs     │
+│  Fonts          │  Google Fonts    │  Inter + Outfit + Spartan  │
+│  VCS            │  Git & GitHub    │  Version control & hosting │
+└─────────────────┴──────────────────┴────────────────────────────┘
+```
 
 ---
 
 ## 📂 Project Structure
 
 ```
-├── 📁 img/                   # Image assets (products, banners, icons)
-├── 📄 index.html             # Homepage
-├── 📄 shop.html              # Product listing catalog
-├── 📄 blog.html              # Blog articles listing
-├── 📄 about.html             # About company & team page
-├── 📄 contact.html           # Contact details & contact form
-├── 📄 cart.html              # Shopping cart page
-├── 📄 sproduct.html          # Single product details page
-├── 📄 style.css              # Main external stylesheet
-└── 📄 script.js              # Application logic script
+Cera_Website/
+├── 📁 img/                    # All image assets
+│   ├── 📁 products/           # Product catalog images
+│   ├── 📁 banner/             # Promotional banners
+│   ├── 📁 blog/               # Blog post thumbnails
+│   ├── 📁 people/             # Team / people photos
+│   ├── 📁 about/              # About page assets
+│   └── 🖼️ hero4.png           # Hero background
+├── 🖼️ logo.png                # Brand logo
+├── 📄 index.html              # Homepage
+├── 📄 shop.html               # Product listing catalog
+├── 📄 sproduct.html           # Single product detail page
+├── 📄 cart.html               # Shopping cart page
+├── 📄 blog.html               # Blog articles listing
+├── 📄 about.html              # About company page
+├── 📄 contact.html            # Contact form & details
+├── 🎨 style.css               # Main stylesheet (dark mode ready)
+└── ⚡ script.js               # App logic (cart, modal, theme)
 ```
 
 ---
 
 ## 🚀 Getting Started
 
-To run the project locally on your machine:
+### Quick Start (3 steps)
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/akhil3145/Cera_Website.git
-   ```
+```bash
+# 1. Clone the repository
+git clone https://github.com/akhil3145/Cera_Website.git
 
-2. **Navigate into the folder:**
-   ```bash
-   cd Ecommerce_website
-   ```
+# 2. Navigate to project folder
+cd Cera_Website/Ecommerce_website
 
-3. **Open the project:**
-   Simply double-click `index.html` to open it in your default web browser, or use a local dev server (like VS Code's *Live Server* extension) for auto-reload.
+# 3. Open in browser
+start index.html        # Windows
+open index.html         # macOS
+xdg-open index.html     # Linux
+```
+
+### With Live Server (Recommended)
+
+1. Install [VS Code](https://code.visualstudio.com/)
+2. Install [Live Server Extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+3. Right-click `index.html` → **Open with Live Server**
 
 ---
 
-## 📺 Course Reference & Credits
+## 🧩 Key Implementation Details
 
-This project was built following the comprehensive **Build and Deploy E-Commerce Website** tutorial series by **Tech2etc**. Special thanks to the author for the layout assets and baseline design resources.
+### 🌗 Dark Mode
+```css
+/* CSS Custom Properties for seamless theming */
+:root { --bg-primary: #ffffff; --text-primary: #0f172a; }
+[data-theme="dark"] { --bg-primary: #0f172a; --text-primary: #f8fafc; }
+```
+
+### 🛒 Cart System
+- `localStorage` persistence — cart survives page refresh
+- Slide-in sidebar with quantity controls
+- Live badge updates on navbar
+
+### 🍞 Toast Notifications
+- Auto-dismiss after 3 seconds
+- Manual close with smooth fade-out animation
+- Stacks multiple toasts vertically
 
 ---
-*Developed with ❤️ by Akhil*
+
+## 📊 Feature Checklist
+
+| Feature | Status |
+|:--------|:------:|
+| Responsive Design | ✅ |
+| Dark / Light Mode | ✅ |
+| Cart Sidebar | ✅ |
+| Quickview Modal | ✅ |
+| Toast Notifications | ✅ |
+| LocalStorage Persistence | ✅ |
+| Mobile Navigation | ✅ |
+| Product Grid with Hover | ✅ |
+| Newsletter Section | ✅ |
+| Multi-page Layout | ✅ |
+
+---
+
+## 📜 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+## 🙏 Credits
+
+Built following the **Build and Deploy E-Commerce Website** tutorial by **Tech2etc**. Extended with dark mode, cart system, quickview modal, and toast notifications.
+
+---
+
+<div align="center">
+
+**Made with ❤️ by [Akhil](https://github.com/akhil3145)**
+
+⭐ Star this repo if you find it helpful!
+
+</div>
